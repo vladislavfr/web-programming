@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Формы JavaScript</title>
+        <link rel="stylesheet" href="Формы Javascript.css" type="text/css">
+        <script>
+            console.log('Всем привет!!!');
+            let x = 33;
+            let s = 'яблоки';
+            console.log('x=',x,'s=', s);
+        </script>
+        <script src="Формы Javascript.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div id="title" onclick="showTitle()">Формы JavaScript</div>
+            <div class="language">
+                <input type="button" value="ru" onclick="setRussian()">
+                <input type="button" value="en" onclick="setEnglish()">
+            </div>
+        </div>
+        <div class="content">
+            <form>
+                <div id="user-data">
+                    <div>
+                        <span id="your-name">Ваше имя</span>: <input type="text" id="input-name" placeholder="введите имя">
+                    </div>
+                    <div>
+                        <span id="your-surname">Ваша фамилия</span>: <input type="text" id="input-surname" placeholder="введите фамилию">
+                    </div>
+                    <div>
+                        <span id="your-age">Ваш возраст</span>: <input type="text" id="input-age" placeholder="введите возраст">
+                    </div>
+                    <div>
+                        <input type="button" value="oк" id="ok-button" onclick="showAlert()">
+                        <input type="reset" value="сброс" id="reset-button">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="footer" id="footer" onclick="showFooter()">
+            Владислав
+        </div>
+    </body>
+</html>
