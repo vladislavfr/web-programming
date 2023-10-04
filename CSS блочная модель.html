@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>WEB</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            .header {
+                background-color: #333333;
+                color: #ffe4c4;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: left;
+                height: 80px;
+                line-height: 80px;
+                padding-left: 30px;
+            }
+            .content{
+                flex:1;
+            }
+            .footer {
+                background-color: #333;
+                font-size: 14px;
+                color:#888;
+                font-style: italic;
+                text-align: right;
+                height: 50px;
+                line-height: 30px;
+                padding-right: 30px;
+                flex-shrink: 0;
+            }
+            .a {
+                display: inline;
+                background-color: #e9a0a0;
+                border: 1px solid #1f0404;
+                border-radius: 3px;
+            }
+            .b {
+                height: 200;
+                width: 50;
+                border: 3px solid #1f0404;
+                float: left;
+            }
+            .c {
+                height: 200;
+                width: 50;
+                border: 3px solid #1f0404;
+                float: right;
+            }
+            .d {
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            Vladislav
+        </div>
+
+        <div class="content">
+            <h1>InLine</h1>
+            <div class="a">block 1</div>
+            <div class="a">block 2</div>
+            <div class="a">block 3</div>
+
+            <h1>Float</h1>
+            <div class="b">block 1</div>
+            <div class="b">block 2</div>
+            <div class="b">block 3</div>
+
+            <div class="c">block 1</div>
+            <div class="c">block 2</div>
+            <div class="c">block 3</div>
+
+            <h1>Relative</h1>
+            <div class="d" style="top: -23px;left: 35px;">В тот год осенняя погода</div>
+            <div class="d" style="top: -20px; left: 40px;">Стояла долго на дворе,</div>
+            <div class="d" style="top:-28px; left:70px;">Зимы ждала, ждала природа.</div>
+            <div class="d" style="top:-28px; left: 60px;">Снег выпал только в январе</div>
+
+            <h1>Absolute</h1>
+            <div>На третье в ноч. Проснувшись рано,</div>
+            <div>В окно увидела Татьяна</div>
+            <div style="position: absolute;left: 200px; top: 100px;">Поутру побелевший двор,</div>
+            <div>Куртины, кровли и забор,</div>
+
+            <h1>Fixed</h1>
+            <div style="position:fixed; bottom:300px; right:300px">
+                Нас стеклах легкие узоры,<br>
+                Деревья в зимнем серебре,<br>
+                Сорок веселых на дворе<br>
+                И мягко устланные горы<br>
+                Зимы блистательным ковром.<br>
+                Все ярко и бело кругом.
+            </div>
+
+            <div style="clear:both">end</div>
+
+        </div>
+
+        <div class="footer">
+            Vsem Poka
+        </div>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>WEB</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            .header {
+                background-color: #333333;
+                color: #ffe4c4;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: left;
+                height: 80px;
+                line-height: 80px;
+                padding-left: 30px;
+                flex-shrink: 0;
+            }
+            
+            .content {
+                flex:1;
+            }
+            .footer{
+                background-color: #333;
+                font-size: 14px;
+                color:#888;
+                font-style: italic;
+                text-align: right;
+                height: 50px;
+                line-height: 30px;
+                padding-right: 20px;
+                flex-shrink: 0;
+            }
+            .menu {
+                position: absolute;
+                padding-left: 5px;
+            }
+            .catalog {
+                display: block;
+                font-size:medium;
+            }
+            .Tovar {
+                display: none;
+                font-size: medium;
+            }
+            .Pict {
+                display: none;
+                font-size: medium;
+            }
+            .News {
+                display: none;
+                font-size: medium;
+            }
+            .catalog:hover {
+                background-color: #cbcbcb;
+            }
+            .Tovar:hover {
+                background-color: #cbcbcb;
+            }
+            .Pict:hover {
+                background-color: #cbcbcb;
+            }
+            .News:hover {
+                background-color: #cbcbcb;
+            }
+            .menu:hover {
+                border: 1px solid #c2c1c1;
+                width: 25vh;
+                box-shadow: 1px 1px 1px #757575;
+            }
+            .menu:hover .Tovar {
+                display: block;
+            }
+            .menu:hover .Pict{
+                display: block;
+            }
+            .menu:hover .News{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            Всем привет
+        </div>
+        
+        <div class="content">
+            <div class="menu">
+                <div class="catalog">Каталог</div>
+                <div class="Tovar">Товары</div>
+                <div class="Pict">Картинки</div>
+                <div class="News">Новости</div>
+            </div>
+
+        </div>
+        <div class="footer">
+            Vsem Poka
+        </div>
+
+    </body>
+</html>

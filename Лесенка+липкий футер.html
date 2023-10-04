@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>WEB</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            .header {
+                background-color: #333333;
+                color: #ffe4c4;
+                font-weight: bold;
+                font-size: 20px;
+                text-align: left;
+                height: 80px;
+                line-height: 80px;
+                padding-left: 30px;
+                flex-shrink: 0;
+            }
+            
+            .content {
+                flex:1;
+            }
+            .footer{
+                background-color: #333;
+                font-size: 14px;
+                color:#888;
+                font-style: italic;
+                text-align: right;
+                height: 50px;
+                line-height: 30px;
+                padding-right: 20px;
+                flex-shrink: 0;
+            }
+            .box1 {
+                border: 1px solid #000000;
+                border-radius: 5px;
+                border-width: 3px;
+                height: 100px;
+                width: 300px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                background-color: #756eff;
+                z-index: 1 ;
+                position: relative;
+            }
+            .box2 {
+                border: 1px solid #000000;
+                border-radius: 5px;
+                border-width: 3px;
+                height: 100px;
+                width: 300px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                background-color: #756eff;
+                z-index: 2;
+                position: relative;
+                bottom: 20px;
+                left: 20px;
+            }
+            .box3 {
+                border: 1px solid #000000;
+                border-radius: 5px;
+                border-width: 3px;
+                height: 100px;
+                width: 300px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                background-color: #756eff;
+                z-index: 3;
+                position: relative;
+                bottom: 40px;
+                left: 40px;
+            }
+            .box4 {
+                border: 1px solid #000000;
+                border-radius: 5px;
+                border-width: 3px;
+                height: 100px;
+                width: 300px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                background-color: #756eff;
+                z-index: 4;
+                position: relative;
+                bottom: 80px;
+                left: 80px;
+            }
+            .box5 {
+                border: 1px solid #000000;
+                border-radius: 5px;
+                border-width: 3px;
+                height: 100px;
+                width: 300px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                background-color: #756eff;
+                z-index: 5;
+                position: relative;
+                bottom: 100px;
+                left: 100px;
+            }
+            .box3:hover{
+                z-index: 10;
+                color: #ff0000;
+                background-color: #f2ff00;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            Всем привет
+        </div>
+        
+        <div class="content">
+            <div class="box1">Блок А</div>
+            <div class="box2">Блок Б</div>
+            <div class="box3">Блок В</div>
+            <div class="box4">Блок Г</div>
+            <div class="box5">Блок Д</div>
+
+        </div>
+        <div class="footer">
+            Vsem Poka
+        </div>
+
+    </body>
+</html>
