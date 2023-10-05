@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Светофор.css" type="text/css">
+        <script src="Светофор.js"></script>
+    </head>
+    <body>
+            <div class="box"></div>
+            <div class="circle1" id="circle1" onclick="redCircle()">
+                <div class="stop" id="stop">СТОЙ</div>
+            </div>
+            <div class="circle2" id="circle2" onclick="yellowCircle()">
+                <div class="wait" id="wait">ЖДИ</div>
+            </div>
+            <div class="circle3" id="circle3" onclick="greenCircle()">
+                <div class="go" id="go">ИДИ</div>
+            </div>
+            <div class="redalert" id="redalert">
+                На <span style="color:red">красный</span> цвет надо стоять
+            </div>
+            <div class="yellowalert" id="yellowalert">
+                На <span style="color: yellow">желтый</span> цвет ожидаем следующего цвета
+            </div>
+            <div class = "greenalert" id="greenalert">
+                На <span style="color:green">зеленый</span> цвет иди
+            </div>
+    </body>
+</html>
